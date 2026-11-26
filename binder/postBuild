@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
 mkdir -p /content
+chmod 777 /content
 npm install -g @kilocode/cli || true
 echo "Binder app ready"
